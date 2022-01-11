@@ -3,3 +3,9 @@ steps:
   args: ['build', '-t', 'gcr.io/dtumlops-335110/testing', '.']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/dtumlops-335110/testing']
+
+"""
+list of steps, where each step consist of the service that should be used and the arguments for that service. 
+In the above example we are calling the same service (`cloud-builders/docker`) with different arguments (`build` and then `push`). 
+Implement such a file in your repository. Hint: if you forked the repository then you at least need to change the ``.
+"""
