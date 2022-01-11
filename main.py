@@ -3,8 +3,6 @@ from sklearn.model_selection import train_test_split
 
 """"
 Some Code push 
-Test
-
 """
 if __name__ == '__main__':
     digits = datasets.load_digits()
